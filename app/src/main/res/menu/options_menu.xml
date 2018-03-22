@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="@string/home" />
+    <item android:id="@+id/settings"
+        android:title="@string/settings" />
+    <item android:id="@+id/saveToFile"
+        android:title="@string/save_to_file" />
+    <item android:id="@+id/loadFromFile"
+        android:title="@string/load_from_file" />
+    <item android:id="@+id/about"
+        android:title="@string/about" />
+    <item android:id="@+id/help"
+        android:title="@string/help" />
+    <item android:id="@+id/exit"
+        android:title="@string/exit" />
+</menu>

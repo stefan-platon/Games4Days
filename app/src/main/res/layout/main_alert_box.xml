@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/mainAlertBoxImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/mainAlertBoxText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/insert_a_new_item_my_friend"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/mainAlertBoxGetText"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="45dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/mainAlertBoxButtonSubmit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/mainAlertBoxButtonCancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
