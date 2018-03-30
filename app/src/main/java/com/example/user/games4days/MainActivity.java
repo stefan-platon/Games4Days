@@ -1,15 +1,13 @@
-package com.example.user.laborator1;
+package com.example.user.games4days;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -26,7 +24,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -34,8 +31,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
-
-import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
     String imageToSaveName;
@@ -271,6 +266,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.settings:
                 startActivity(new Intent(this, PrefActivity.class));
+                break;
+            case R.id.sensors:
+                startActivity(new Intent(this, SensorsActivity.class));
                 break;
             case R.id.saveToFile:
                 saveFileToInternalStorage();

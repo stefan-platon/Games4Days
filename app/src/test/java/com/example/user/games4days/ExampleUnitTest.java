@@ -1,4 +1,4 @@
-package com.example.user.laborator1;
+package com.example.user.games4days;
 
 import org.junit.Test;
 

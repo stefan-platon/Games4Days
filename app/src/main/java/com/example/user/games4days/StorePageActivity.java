@@ -1,4 +1,4 @@
-package com.example.user.laborator1;
+package com.example.user.games4days;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.user.laborator1.R;
 
 public class StorePageActivity extends AppCompatActivity {
 
