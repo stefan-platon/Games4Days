@@ -6,6 +6,10 @@
         android:title="@string/settings" />
     <item android:id="@+id/sensors"
         android:title="@string/sensors" />
+    <item android:id="@+id/location"
+        android:title="@string/location" />
+    <item android:id="@+id/camera"
+        android:title="@string/camera" />
     <item android:id="@+id/saveToFile"
         android:title="@string/save_to_file" />
     <item android:id="@+id/loadFromFile"

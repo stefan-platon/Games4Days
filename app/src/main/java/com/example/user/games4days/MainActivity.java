@@ -270,6 +270,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.sensors:
                 startActivity(new Intent(this, SensorsActivity.class));
                 break;
+            case R.id.location:
+                startActivity(new Intent(this, LocationActivity.class));
+                break;
+            case R.id.camera:
+                startActivity(new Intent(this, CameraActivity.class));
+                break;
             case R.id.saveToFile:
                 saveFileToInternalStorage();
                 break;
